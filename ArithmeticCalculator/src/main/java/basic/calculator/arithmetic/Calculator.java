@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Calculator {
-    private static ArrayList<Integer> numbersArray = new ArrayList<>();
+    private static final ArrayList<Integer> numbersArray = new ArrayList<>();
 
     // 1. Addition method.
     public static int addition() {
@@ -13,6 +13,7 @@ public class Calculator {
         for (int number: numbersArray) {
             sum += number;
         }
+        numbersArray.clear();
         return sum;
     }
 
@@ -33,6 +34,7 @@ public class Calculator {
         // TODO
         return 1.0;
     }
+
 
     public static void input() {
 
