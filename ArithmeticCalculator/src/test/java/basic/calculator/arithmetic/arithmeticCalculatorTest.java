@@ -50,7 +50,7 @@ public class arithmeticCalculatorTest {
             numbersList.add(i);
         }
         double quotient = arithmeticCalculator.division(numbersList);
-        double delta = 0.0001; // Set an acceptable difference/delta
+        double delta = 0.0001;
         assertEquals(0.5, quotient, delta);
     }
 }
