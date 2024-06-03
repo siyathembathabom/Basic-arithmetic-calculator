@@ -2,7 +2,7 @@ package basic.calculator.arithmetic;
 
 import org.junit.Test;
 
-public class CalculatorTest {
+public class arithmeticCalculatorTest {
 
     @Test
     public void additionTest() {
@@ -16,11 +16,11 @@ public class CalculatorTest {
 
     @Test
     public void multiplicationTest() {
-
+        // TODO
     }
 
     @Test
     public void divisionTest() {
-
+        // TODO
     }
 }
